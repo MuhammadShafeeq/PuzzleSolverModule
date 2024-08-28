@@ -48,6 +48,7 @@ class SudokuSolver(object):
         return True
 
     def solve(self, row, col):
+
         if col == 9:
             if row == 8:
                 return True
